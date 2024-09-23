@@ -60,17 +60,6 @@ Copy code
 http://127.0.0.1:5000/
 Upload a video file: Upload your video via the interface and see the real-time fire and smoke detection in action.
 
-📂 Project Structure
-bash
-Copy code
-yolov8-fire-smoke-detection/
-│
-├── uploads/                        # Uploaded video files
-├── templates/                      # HTML files for the web interface
-│   └── index.html                  # Main UI for uploading and displaying video
-├── app.py                          # Main Flask application script
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
 🖼️ How It Works
 Video Upload: Users can upload videos directly from the web interface.
 Real-time Detection: The YOLOv8 model processes video frames in real-time, detecting instances of fire and smoke.
