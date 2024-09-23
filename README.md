@@ -6,6 +6,9 @@ This repository showcases an advanced real-time video streaming web application 
 🚀 Project Overview
 In this project, we integrate YOLOv8, a state-of-the-art deep learning object detection model, with Flask to create a web interface that supports video uploads and real-time fire and smoke detection. The application processes video frames, detects fire and smoke with high accuracy, and highlights these regions using bounding boxes.
 
+Read this article for full understanding:
+
+
 
 Key Features:
 Real-time video streaming: The application continuously processes video frames and updates detection results live.
@@ -61,22 +64,34 @@ http://127.0.0.1:5000/
 Upload a video file: Upload your video via the interface and see the real-time fire and smoke detection in action.
 
 🖼️ How It Works
+
 Video Upload: Users can upload videos directly from the web interface.
+
 Real-time Detection: The YOLOv8 model processes video frames in real-time, detecting instances of fire and smoke.
 Visual Feedback: Bounding boxes and labels (e.g., "Fire") are rendered over the detected areas in the video, with confidence scores displayed.
 User Interface: A live feed is shown in the browser, updating continuously as the model processes the video frames.
+
+
 💡 Potential Use Cases
+
 Surveillance systems: Automatically detect fire hazards in real-time in industrial and public spaces.
 Safety monitoring: Integrate this solution with existing monitoring systems for fire and smoke detection in high-risk areas.
+
 🚧 Challenges and Solutions
+
 Real-time Performance: Managing efficient real-time processing on lower-end systems can be a challenge. Leveraging frame resizing and model optimizations can help in such scenarios.
 False Positives: To minimize detection errors, confidence thresholds can be fine-tuned, and multiple video streams analyzed simultaneously to cross-verify results.
+
 📈 Future Enhancements
+
 Integration with live camera feeds: Extend the application to work with live video streams from security cameras.
 Alarm systems: Automatically trigger alerts or notifications when fire or smoke is detected.
 Mobile-friendly interface: Optimize the app UI for mobile browsers for more flexibility.
+
 👨‍💻 Contributing
+
 We welcome contributions! Please fork the repository and submit a pull request to improve the project.
 
 📧 Contact
+
 For any questions, feel free to reach out or raise an issue in the GitHub repository.
