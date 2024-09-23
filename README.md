@@ -4,7 +4,7 @@
 This repository showcases an advanced **real-time video streaming** web application that uses **YOLOv8** for detecting fire and smoke in live video feeds. The solution is built with **Flask**, enabling fast, responsive detection and visual feedback for safety monitoring purposes.
 
 ## Read this article for full understanding of the code:
-
+https://medium.com/@deepaknr015/smart-fire-safety-how-yolov8-and-flask-power-real-time-fire-and-smoke-detection-79058b024b09
 
 ## 🚀 Project Overview
 
