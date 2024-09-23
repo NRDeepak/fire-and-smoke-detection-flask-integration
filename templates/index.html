@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLOv8 Fire and Smoke Detection</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>YOLOv8 Object Detection</h1>
+
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept="video/*" required>
+            <button type="submit">Upload and Detect</button>
+        </form>
+
+        <h2>Fire and Smoke Detection</h2>
+
+        <img id="videoStream" src="/video_feed" width="980" height="600" alt="Video stream will appear here">
+
+        <footer>
+            <p>Deepak NR &copy; 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
